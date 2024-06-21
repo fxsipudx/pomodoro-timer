@@ -1,0 +1,30 @@
+body{
+    color: white;
+    font-family:'Press Start 2P';
+    font-size: 48px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-family:'Press Start 2P';
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: none;
+    background-image: url(images/image2.jpg);
+    background-size: cover; 
+    background-position: bottom;
+}
