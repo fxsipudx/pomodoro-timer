@@ -47,6 +47,11 @@ button{
     background-color: #3d71ab;
     color: white;
     margin-right: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#addTaskButton:hover{
+    background-color: #2a5078;
+    color: white;
 }
 
 #addtaskBox{
@@ -65,6 +70,11 @@ button{
     background-color: #3d71ab;
     color: white;
     margin-right: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#saveButton:hover{
+    background-color: #2a5078;
+    color: white;
 }
 #task-input{
     display: none;
@@ -99,4 +109,9 @@ button{
     background-color: #3d71ab;
     color: white;
     margin-right: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#deleteTask:hover{
+    background-color: #2a5078;
+    color: white;
 }
