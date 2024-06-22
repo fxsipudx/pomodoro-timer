@@ -13,6 +13,7 @@ button{
     padding: 10px;
     border-radius: 0px;
     border: none;
+    color: black;
     background-color: white;
 
 }
@@ -27,4 +28,75 @@ button{
     background-image: url(images/image2.jpg);
     background-size: cover; 
     background-position: bottom;
+}
+#taskList{
+    width: 500px;
+    height: 50px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#taskList p{
+    margin-left: 5px;
+}
+#addTaskButton{
+    background-color: #3d71ab;
+    color: white;
+    margin-right: 5px;
+}
+
+#addtaskBox{
+  
+    width: 500px;
+    height: 50px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#saveButton{
+    display: none;
+    background-color: #3d71ab;
+    color: white;
+    margin-right: 5px;
+}
+#task-input{
+    display: none;
+    width: 80%;
+    background-color:#f0f0f0;
+    border: none;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family:'Press Start 2P';
+}
+#task-input:focus{
+    outline: none;
+
+}
+#mainTaskList{
+    width: 500px;
+    height: 50px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainTaskList p{
+    color: black;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#deleteTask{
+    background-color: #3d71ab;
+    color: white;
+    margin-right: 5px;
 }

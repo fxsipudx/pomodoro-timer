@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <section id="bigSection">
         <div id="clock">
             <div id="watch">
                 <span id="min">00</span><span>:</span><span id="sec">00</span>
@@ -20,6 +20,14 @@
                 <button id="pause">Pause</button>
                 <button id="reset">Reset</button>
             </div>
+        </div>
+        <div id="taskList">
+            <p>Tasks</p>
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <div id="addtaskBox">
+            <input type="text" id="task-input" placeholder="What are you working on?">
+            <button id="saveButton">Save</button>
         </div>
     </section>
     <script src="script.js"></script>
